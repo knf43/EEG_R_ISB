@@ -1,0 +1,10 @@
+*** Area Export ***
+
+Output file: C:\Vision\Raw Files\Kaylee_stress\export\Area136_280.txt
+Decimal symbol: .
+Area relative to time 0: 136ms - 280ms
+Reference file for channels, length, sampling rate etc.: stress1_L1
+Data has not been rectified.
+Exporting Mean Values
+Fields: <Channel>-<Dataset> (mean value in  µV)
+
