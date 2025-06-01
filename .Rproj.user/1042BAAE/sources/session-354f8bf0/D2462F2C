@@ -3,7 +3,7 @@
     "path": "~/Desktop/EEG_R_ISB/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "3035694832",
+    "hash": "2202952473",
     "contents": "",
     "dirty": false,
     "created": 1748808425169.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "217,364",
-        "scrollLine": "215"
+        "cursorPosition": "217,2",
+        "scrollLine": "208"
     },
     "folds": "",
-    "lastKnownWriteTime": 1748814966,
+    "lastKnownWriteTime": 1748815175,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1748814966845,
+    "last_content_update": 1748815175938,
     "read_only": false,
     "read_only_alternatives": []
 }

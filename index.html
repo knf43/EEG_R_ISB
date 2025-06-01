@@ -2229,14 +2229,13 @@ L1_L2:stress:match
 </div>
 <div id="topographic-plots" class="section level1">
 <h1>Topographic plots</h1>
-</div>
-<div id="topographical-maps-show-the-difference-in-mean-erp-amplitude-between-stressed-and-unstressed-conditions-at-f0-onset-electrodes-f3-fz-fc1-cz-and-between-mismatch-and-match-conditions-at-suffix-onset-electrodes-f7-f3-fc5-across-time-windows-and-groups-l1-vs.-l2.gray-regions-reflect-areas-outside-the-interpolation-range-based-on-selected-electrodes." class="section level1">
-<h1>Topographical maps show the difference in mean ERP amplitude between
+<div id="topographical-maps-show-the-difference-in-mean-erp-amplitude-between-stressed-and-unstressed-conditions-at-f0-onset-electrodes-f3-fz-fc1-cz-and-between-mismatch-and-match-conditions-at-suffix-onset-electrodes-f7-f3-fc5-across-time-windows-and-groups-l1-vs.-l2.gray-regions-reflect-areas-outside-the-interpolation-range-based-on-selected-electrodes." class="section level2">
+<h2>Topographical maps show the difference in mean ERP amplitude between
 stressed and unstressed conditions at F0 onset (electrodes: F3, Fz, FC1,
 Cz) and between mismatch and match conditions at suffix onset
 (electrodes: F7, F3, FC5) across time windows and groups (L1
 vs. L2).Gray regions reflect areas outside the interpolation range based
-on selected electrodes.</h1>
+on selected electrodes.</h2>
 <pre class="r"><code>f0_diff &lt;- ERP_F0_long %&gt;%
   filter(channel %in% c(&quot;F3&quot;, &quot;Fz&quot;, &quot;FC1&quot;, &quot;Cz&quot;),
          time_period %in% c(&quot;136_280&quot;, &quot;280_400&quot;, &quot;400_600&quot;)) %&gt;%
@@ -2379,6 +2378,7 @@ ERP_suffix_long %&gt;%
 ## 10 FC5     415_550       108
 ## 11 FC5     550_680       108
 ## 12 FC5     680_800       108</code></pre>
+</div>
 </div>
 
 

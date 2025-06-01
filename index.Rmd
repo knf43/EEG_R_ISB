@@ -215,7 +215,7 @@ knitr::kable(nice(aov_suffix_680), caption = "Suffix 680–800 ms Repeated Measu
 ```
 
 # Topographic plots
-# Topographical maps show the difference in mean ERP amplitude between stressed and unstressed conditions at F0 onset (electrodes: F3, Fz, FC1, Cz) and between mismatch and match conditions at suffix onset (electrodes: F7, F3, FC5) across time windows and groups (L1 vs. L2).Gray regions reflect areas outside the interpolation range based on selected electrodes. 
+## Topographical maps show the difference in mean ERP amplitude between stressed and unstressed conditions at F0 onset (electrodes: F3, Fz, FC1, Cz) and between mismatch and match conditions at suffix onset (electrodes: F7, F3, FC5) across time windows and groups (L1 vs. L2).Gray regions reflect areas outside the interpolation range based on selected electrodes. 
 ```{r}
 
 f0_diff <- ERP_F0_long %>%
