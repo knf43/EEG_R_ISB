@@ -325,6 +325,20 @@ For the F0 analysis (stressed – unstressed), L1 participants showed a broad fr
 
 For the suffix analysis (mismatch – match), L1 participants exhibited a left-frontal positivity for mismatching suffixes in the 550–800 ms windows, with the effect most pronounced in the final window (680–800 ms). In contrast, L2 participants showed a widespread positivity for mismatching suffixes beginning earlier and persisting across all time windows, without clear lateralization.
 
+# ERP Components
+
+The Pre-activation Negativity (PrAN) is a negative-going ERP component that typically arises between 136–280 ms after the onset of a predictive cue (e.g., the first syllable or tone) and is most pronounced at left-frontal scalp sites. PrAN has been interpreted as an index of form-based lexical prediction, reflecting neural pre-activation of likely continuations based on initial auditory input. The amplitude of PrAN increases when there are fewer possible continuations, indicating higher predictive certainty. This component was first identified in Swedish, where native speakers use lexical tone (word accents) to predict upcoming morphosyntactic suffixes. For example, accent 1 cues suffixes like -en (singular definite) and -er (present tense), while accent 2 cues -ar (plural) or -de (past tense). PrAN is stronger following accent 1, as it is associated with fewer possible suffixes and thus greater predictive certainty.
+
+The Left Anterior Negativity (LAN) is an ERP component typically observed between 225–400 ms after stimulus onset, characterized by a negative deflection over left-frontal scalp regions. It has been associated with morphosyntactic processing, such as subject-verb agreement and grammatical gender violations (Osterhout & Mobley, 1995; Friederici, 2002). 
+
+
+The P600 is a positive-going ERP component that typically emerges between 500–800 ms after the onset of a critical stimulus, often maximal over posterior parietal regions. It has been widely interpreted as reflecting syntactic reanalysis, morphosyntactic repair, or the integration of unpredicted or ungrammatical elements into the ongoing sentence structure (Osterhout & Holcomb, 1992; Hagoort et al., 1993). The amplitude of the P600 increases in response to unexpected or incongruent morphosyntactic cues, such as violations in subject-verb agreement, case marking, or tense morphology.P600 effects have also been observed in response to violations of lexical tone-suffix associations in Swedish, where suffixes that mismatched the tonal expectations of the stem (e.g., accent 1 followed by an accent 2-associated suffix) elicited a robust P600 (Roll et al., 2013; Söderström et al., 2017). These findings suggest that the P600 reflects not only syntactic but also form-based morphophonological prediction errors, particularly when the listener has strong expectations about suffixes based on prosodic cues.
+
+
+
+
+
+
 
 
 
