@@ -306,3 +306,25 @@ ERP_suffix_long %>%
 
 ```
 
+# Summary
+
+###
+ERP analyses were conducted across six time windows, three time-locked to the onset of the first syllable of the target word (F0) and three time-locked to the onset of the suffix. For the F0 analyses, epochs were extracted for the 136–280 ms, 280–400 ms, and 400–600 ms windows over fronto-central electrodes: F3, Fz, FC1, and Cz. For the suffix analyses, epochs were extracted for the 235–415 ms, 415–550 ms, 550–680 ms, and 680–800 ms windows over left-frontal electrodes: F7, F3, and FC5.
+
+For the F0 analysis, in the 136–280 ms time window, a significant group × stress × match interaction was observed, F(1, 29) = 4.68, p = .039. In the 280–400 ms time window, a significant group × stress × match interaction was again observed, F(1, 29) = 4.88, p = .035. In the 400–600 ms time window, a significant stress × match interaction was found, F(1, 29) = 4.96, p = .034, along with a significant group × stress × match interaction, F(1, 29) = 4.89, p = .035.
+
+Estimated marginal means showed a consistent pattern across all three time windows: in the L1 group, match trials elicited more positive amplitudes when the verb was stressed than when it was unstressed, while mismatch trials were negative regardless of stress. The L2 group showed consistently negative amplitudes across all conditions. 
+
+For the suffix analysis, no significant effects were found in the 235–415 ms, 415–550 ms, or 550–680 ms time windows. In the 680–800 ms time window, a significant group × stress × match interaction was observed, F(1, 29) = 4.22, p = .049.
+
+Estimated marginal means showed that, in the L1 group, match trials elicited more positive amplitudes when the verb was stressed than when it was unstressed. In mismatch trials, amplitudes were generally negative regardless of stress. The L2 group showed small negative amplitudes across all conditions 
+
+Topographic maps illustrate the scalp distribution of the ERP effects observed in the statistical analyses. 
+
+For the F0 analysis (stressed – unstressed), L1 participants showed a broad fronto-central positivity for stressed forms relative to unstressed forms across all three time windows (136–600 ms), while L2 participants showed minimal differences and weak negative shifts over central sites. 
+
+For the suffix analysis (mismatch – match), L1 participants exhibited a left-frontal positivity for mismatching suffixes in the 550–800 ms windows, with the effect most pronounced in the final window (680–800 ms). In contrast, L2 participants showed a widespread positivity for mismatching suffixes beginning earlier and persisting across all time windows, without clear lateralization.
+
+
+
+
