@@ -21,56 +21,89 @@ library(remotes)
 library(akima)
 library(glue)
 
+# Import data
+# ---- 1. Fix path to .vhdr files ----
+vhdr_paths <- list.files("EEG_data", pattern = "\\.vhdr$", recursive = TRUE, full.names = TRUE)
+
+# ---- 2. Updated read_ascii_erp function ----
 read_ascii_erp <- function(vhdr_path) {
   lines <- readLines(vhdr_path)
   dat_file_line <- lines[grepl("^DataFile=", lines)]
-  dat_filename <- str_replace(dat_file_line, "DataFile=", "")
-  dat_path <- file.path(dirname(vhdr_path), dat_filename)
+  dat_filename <- str_trim(str_replace(dat_file_line, "DataFile=", ""))
+  dat_path <- normalizePath(file.path(dirname(vhdr_path), dat_filename), mustWork = TRUE)
   
-  # Read the ASCII data and skip the first column
   dat_df <- read_table(dat_path, col_names = FALSE, skip = 0) %>%
-    select(-1)  # SkipColumns = 1
+    select(where(is.numeric))
   
-  # Extract channel names
   ch_lines <- lines[grepl("^Ch\\d=", lines)]
-  ch_names <- str_match(ch_lines, "^Ch\\d+=(.*?),")[, 2]
+  ch_names <- str_match(ch_lines, "^Ch\\d+=([^,]+)")[, 2]
   
-  # Reshape to long format with correct time axis
   dat_long <- dat_df %>%
     t() %>%
     as.data.frame() %>%
     setNames(paste0("V", seq_along(.))) %>%
+    tibble::rownames_to_column("time_index") %>%
     mutate(time = seq(-200, by = 2, length.out = n())) %>%
-    pivot_longer(cols = -time, names_to = "channel", values_to = "amplitude") %>%
+    pivot_longer(cols = starts_with("V"), names_to = "channel_idx", values_to = "amplitude") %>%
     mutate(
-      channel = ch_names[as.integer(str_remove(channel, "V"))]
-    )
+      channel = ch_names[as.integer(str_remove(channel_idx, "V"))],
+      amplitude = as.numeric(amplitude)
+    ) %>%
+    select(time, channel, amplitude)
   
   return(dat_long)
 }
 
+# ---- 3. Extract metadata from filenames ----
+vhdr_df <- tibble(
+  filepath = vhdr_paths,
+  filename = basename(vhdr_paths),
+  participant = str_extract(filename, "stress\\d+_L\\d+"),
+  area = case_when(
+    str_detect(filename, "F0") ~ "F0",
+    str_detect(filename, "suffix") ~ "suffix",
+    TRUE ~ NA_character_
+  ),
+  match = case_when(
+    str_detect(filename, "mismatch") ~ "mismatch",
+    str_detect(filename, "match") ~ "match",
+    TRUE ~ NA_character_
+  ),
+  stress = case_when(
+    str_detect(filename, "stressed") ~ "stressed",
+    str_detect(filename, "unstressed") ~ "unstressed",
+    TRUE ~ NA_character_
+  )
+)
+
+# ---- 4. Read ERP data and merge with metadata ----
 erp_all <- vhdr_df %>%
-  mutate(data = map(filepath, read_ascii_erp)) %>%
-  unnest(data) %>%
+  mutate(erp_data = map(filepath, read_ascii_erp)) %>%
+  select(-filepath, -filename) %>%
+  unnest(erp_data) %>%
   mutate(
-    amplitude = as.numeric(amplitude),
     L1_L2 = if_else(str_detect(participant, "_L1"), "L1", "L2"),
     Participant_ID = str_extract(participant, "\\d+_L\\d+")
   )
 
+erp_all <- erp_all %>%
+  filter(channel != "1")
+
 # Plots
-# Filter to area and condition of interest
+# ---- Plot ERP Data from F0 Onset ----
 erp_plot_data_f0 <- erp_all %>%
-  filter(area == "F0",
-         match %in% c("match", "mismatch"),
-         !is.na(channel),
-         channel != "1") %>%
+  filter(
+    area == "F0",
+    match %in% c("match", "mismatch"),
+    !is.na(channel)
+  ) %>%
   mutate(
     channel = factor(channel),
-    L1_L2 = factor(L1_L2, levels = c("L1", "L2"))
+    L1_L2 = factor(L1_L2, levels = c("L1", "L2")),
+    amplitude = as.numeric(amplitude)
   ) %>%
   group_by(L1_L2, channel, time, match) %>%
-  summarise(mean_amp = mean(as.numeric(amplitude), na.rm = TRUE), .groups = "drop")
+  summarise(mean_amp = mean(amplitude, na.rm = TRUE), .groups = "drop")
 
 ggplot(erp_plot_data_f0, aes(x = time, y = mean_amp, color = match)) +
   geom_line(size = 0.7) +
@@ -78,7 +111,7 @@ ggplot(erp_plot_data_f0, aes(x = time, y = mean_amp, color = match)) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   scale_y_reverse() +
   labs(
-    title = "ERP data from onset of F0",
+    title = "ERP Data from Onset of F0",
     x = "Time (ms)",
     y = "Amplitude (µV)",
     color = "Condition"
@@ -89,18 +122,20 @@ ggplot(erp_plot_data_f0, aes(x = time, y = mean_amp, color = match)) +
     axis.text.x = element_text(angle = 45, hjust = 1)
   )
 
-
+# ---- Plot ERP Data from Suffix Onset ----
 erp_plot_data_suffix <- erp_all %>%
-  filter(area == "suffix",
-         match %in% c("match", "mismatch"),
-         !is.na(channel),
-         channel != "1") %>%
+  filter(
+    area == "suffix",
+    match %in% c("match", "mismatch"),
+    !is.na(channel)
+  ) %>%
   mutate(
     channel = factor(channel),
-    L1_L2 = factor(L1_L2, levels = c("L1", "L2"))
+    L1_L2 = factor(L1_L2, levels = c("L1", "L2")),
+    amplitude = as.numeric(amplitude)
   ) %>%
   group_by(L1_L2, channel, time, match) %>%
-  summarise(mean_amp = mean(as.numeric(amplitude), na.rm = TRUE), .groups = "drop")
+  summarise(mean_amp = mean(amplitude, na.rm = TRUE), .groups = "drop")
 
 ggplot(erp_plot_data_suffix, aes(x = time, y = mean_amp, color = match)) +
   geom_line(size = 0.7) +
@@ -108,7 +143,7 @@ ggplot(erp_plot_data_suffix, aes(x = time, y = mean_amp, color = match)) +
   geom_vline(xintercept = 0, linetype = "dashed") +
   scale_y_reverse() +
   labs(
-    title = "ERP data from onset of suffix",
+    title = "ERP Data from Onset of Suffix",
     x = "Time (ms)",
     y = "Amplitude (µV)",
     color = "Condition"
@@ -118,6 +153,7 @@ ggplot(erp_plot_data_suffix, aes(x = time, y = mean_amp, color = match)) +
     strip.text = element_text(size = 10),
     axis.text.x = element_text(angle = 45, hjust = 1)
   )
+
 
 # Topographic maps
 # Electrode map
