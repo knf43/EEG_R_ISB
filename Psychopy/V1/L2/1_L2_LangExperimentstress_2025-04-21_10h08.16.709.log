@@ -1,0 +1,433 @@
+69.4490 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+70.2771 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BE42FCF6A0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BE42FCF700>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BE4305CE20>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+70.2771 	EXP 	window1: backgroundImage = ''
+70.2771 	EXP 	window1: backgroundFit = 'none'
+70.3470 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+70.3470 	EXP 	window1: recordFrameIntervals = False
+70.5003 	EXP 	window1: recordFrameIntervals = True
+70.6837 	EXP 	Screen (0) actual frame rate measured at 60.25Hz
+70.6837 	EXP 	window1: recordFrameIntervals = False
+74.4821 	EXP 	LangExperimentstress: status = STARTED
+74.7597 	EXP 	Created instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='instr', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.3324 	EXP 	Sound test_sound_2 set volume 1.000
+75.3384 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+75.3562 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.3659 	EXP 	Created instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='instr', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.5181 	EXP 	Sound test_sound set volume 1.000
+75.5198 	EXP 	Created polygon_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1, name='polygon_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+75.5247 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+75.5368 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0129 	EXP 	instr: autoDraw = True
+67.1661 	DATA 	Keypress: lalt
+3798.0703 	EXP 	Imported selected_practice.csv as conditions, 4 conditions, 27 params
+3798.0712 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'sounds': 'sounds/p1a_saltar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.205513, 'trigger_verbsonset': 0.8629519999999999, 'trigger_1_F0': 0.984841, 'trigger_suffix': 1.219715, 'trigger_2_F0': 1.27, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0.005513, 'ms_verbonset': 0.662952, 'ms_1_F0': 0.784841, 'ms_suffix': 1.019715, 'ms_2_F0': 1.07, 'file_name': 'p1a_saltar.wav', 'sentence': 'p1', 'cond': 'a', 'combo': 'p1a', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+3798.0863 	EXP 	Sound test_sound_2 reached end of file
+3798.0957 	EXP 	Sound test_sound_2 started
+3798.0881 	DATA 	Keypress: space
+3798.0983 	EXP 	instr: autoDraw = False
+3798.0983 	EXP 	polygon: autoDraw = True
+3800.3149 	EXP 	Sound test_sound_2 reached end of file
+3800.3293 	EXP 	Sound test_sound_2 reached end of file
+3801.8320 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'sounds': 'sounds/p4d_cortar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.205513, 'trigger_verbsonset': 0.8629519999999999, 'trigger_1_F0': 0.984841, 'trigger_suffix': 1.219715, 'trigger_2_F0': 1.27, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0.005513, 'ms_verbonset': 0.662952, 'ms_1_F0': 0.784841, 'ms_suffix': 1.019715, 'ms_2_F0': 1.07, 'file_name': 'p4d_cortar.wav', 'sentence': 'p4', 'cond': 'd', 'combo': 'p4d', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3801.8468 	EXP 	Sound test_sound_2 reached end of file
+3801.8622 	EXP 	Sound test_sound_2 started
+3801.8485 	DATA 	Keypress: right
+3801.8555 	EXP 	polygon: autoDraw = False
+3801.8555 	EXP 	text_3: autoDraw = False
+3801.8555 	EXP 	polygon: autoDraw = True
+3804.3513 	EXP 	Sound test_sound_2 reached end of file
+3804.3627 	EXP 	Sound test_sound_2 reached end of file
+3805.0813 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'sounds': 'sounds/p3c_saltar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.205513, 'trigger_verbsonset': 0.8629519999999999, 'trigger_1_F0': 0.984841, 'trigger_suffix': 1.219715, 'trigger_2_F0': 1.27, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0.005513, 'ms_verbonset': 0.662952, 'ms_1_F0': 0.784841, 'ms_suffix': 1.019715, 'ms_2_F0': 1.07, 'file_name': 'p3c_saltar.wav', 'sentence': 'p3', 'cond': 'c', 'combo': 'p3c', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+3805.0925 	EXP 	Sound test_sound_2 reached end of file
+3805.0953 	EXP 	Sound test_sound_2 started
+3805.0953 	DATA 	Keypress: right
+3805.1016 	EXP 	polygon: autoDraw = False
+3805.1016 	EXP 	text_3: autoDraw = False
+3805.1016 	EXP 	polygon: autoDraw = True
+3807.1622 	EXP 	Sound test_sound_2 reached end of file
+3807.1653 	EXP 	Sound test_sound_2 reached end of file
+3807.5485 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'sounds': 'sounds/p2b_cortar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.205513, 'trigger_verbsonset': 0.8629519999999999, 'trigger_1_F0': 0.984841, 'trigger_suffix': 1.219715, 'trigger_2_F0': 1.27, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0.005513, 'ms_verbonset': 0.662952, 'ms_1_F0': 0.784841, 'ms_suffix': 1.019715, 'ms_2_F0': 1.07, 'file_name': 'p2b_cortar.wav', 'sentence': 'p2', 'cond': 'b', 'combo': 'p2b', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+3807.5605 	EXP 	Sound test_sound_2 reached end of file
+3807.5625 	EXP 	Sound test_sound_2 started
+3807.5623 	DATA 	Keypress: right
+3807.5713 	EXP 	polygon: autoDraw = False
+3807.5713 	EXP 	text_3: autoDraw = False
+3807.5713 	EXP 	polygon: autoDraw = True
+3809.8117 	EXP 	Sound test_sound_2 reached end of file
+3809.8180 	EXP 	Sound test_sound_2 reached end of file
+3810.5242 	DATA 	Keypress: right
+3810.5303 	EXP 	polygon: autoDraw = False
+3810.5303 	EXP 	text_3: autoDraw = False
+3810.5303 	EXP 	instr: autoDraw = True
+3813.7215 	EXP 	Imported selected_trials.csv as conditions, 40 conditions, 26 params
+3813.7226 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'sounds': 'sounds/06d_soplar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.761291666666666, 'trigger_1_F0': 0.8899999999999999, 'trigger_suffix': 1.102139687590422, 'trigger_2_F0': 1.166665581687644, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.561291666666666, 'ms_1_F0': 0.69, 'ms_suffix': 0.902139687590422, 'ms_2_F0': 0.966665581687644, 'file_name': '06d_soplar.wav', 'item_id': 6, 'cond': 'd', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+3813.7426 	EXP 	Sound test_sound reached end of file
+3813.7473 	EXP 	Sound test_sound started
+3813.7445 	DATA 	Keypress: space
+3813.7549 	EXP 	instr: autoDraw = False
+3813.7549 	EXP 	polygon_2: autoDraw = True
+3815.6073 	EXP 	Sound test_sound reached end of file
+3815.6150 	EXP 	Sound test_sound reached end of file
+3819.2004 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'sounds': 'sounds/29a_pesar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.91328417532552, 'trigger_1_F0': 0.925531286730473, 'trigger_suffix': 1.03, 'trigger_2_F0': 1.150619522602117, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.71328417532552, 'ms_1_F0': 0.725531286730473, 'ms_suffix': 0.83, 'ms_2_F0': 0.950619522602117, 'file_name': '29a_pesar.wav', 'item_id': 29, 'cond': 'a', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+3819.2143 	EXP 	Sound test_sound reached end of file
+3819.2296 	EXP 	Sound test_sound started
+3819.2165 	DATA 	Keypress: left
+3819.2241 	EXP 	polygon_2: autoDraw = False
+3819.2241 	EXP 	text_3: autoDraw = False
+3819.2241 	EXP 	polygon_2: autoDraw = True
+3821.1209 	EXP 	Sound test_sound reached end of file
+3821.1293 	EXP 	Sound test_sound reached end of file
+3822.4319 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'sounds': 'sounds/03b_limpiar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8500000000000001, 'trigger_1_F0': 0.932367621527777, 'trigger_suffix': 1.26878515625, 'trigger_2_F0': 1.35808463541666, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.65, 'ms_1_F0': 0.732367621527777, 'ms_suffix': 1.06878515625, 'ms_2_F0': 1.15808463541666, 'file_name': '03b_limpiar.wav', 'item_id': 3, 'cond': 'b', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+3822.4452 	EXP 	Sound test_sound reached end of file
+3822.4459 	EXP 	Sound test_sound started
+3822.4475 	DATA 	Keypress: left
+3822.4563 	EXP 	polygon_2: autoDraw = False
+3822.4563 	EXP 	text_3: autoDraw = False
+3822.4563 	EXP 	polygon_2: autoDraw = True
+3824.5798 	EXP 	Sound test_sound reached end of file
+3824.5960 	EXP 	Sound test_sound reached end of file
+3824.9006 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'sounds': 'sounds/40c_gastar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8300000000000001, 'trigger_1_F0': 0.8400000000000001, 'trigger_suffix': 1.163436328125, 'trigger_2_F0': 1.183149609375, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.63, 'ms_1_F0': 0.64, 'ms_suffix': 0.963436328125, 'ms_2_F0': 0.983149609375, 'file_name': '40c_gastar.wav', 'item_id': 40, 'cond': 'c', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+3824.9152 	EXP 	Sound test_sound reached end of file
+3824.9299 	EXP 	Sound test_sound started
+3824.9171 	DATA 	Keypress: right
+3824.9245 	EXP 	polygon_2: autoDraw = False
+3824.9245 	EXP 	text_3: autoDraw = False
+3824.9245 	EXP 	polygon_2: autoDraw = True
+3827.0183 	EXP 	Sound test_sound reached end of file
+3827.0302 	EXP 	Sound test_sound reached end of file
+3830.1010 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'sounds': 'sounds/32d_pulsar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.796440212673611, 'trigger_1_F0': 0.8294641710069439, 'trigger_suffix': 0.99, 'trigger_2_F0': 1.097783832465277, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.596440212673611, 'ms_1_F0': 0.629464171006944, 'ms_suffix': 0.79, 'ms_2_F0': 0.897783832465277, 'file_name': '32d_pulsar.wav', 'item_id': 32, 'cond': 'd', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+3830.1148 	EXP 	Sound test_sound reached end of file
+3830.1301 	EXP 	Sound test_sound started
+3830.1169 	DATA 	Keypress: right
+3830.1243 	EXP 	polygon_2: autoDraw = False
+3830.1243 	EXP 	text_3: autoDraw = False
+3830.1243 	EXP 	polygon_2: autoDraw = True
+3831.9232 	EXP 	Sound test_sound reached end of file
+3831.9295 	EXP 	Sound test_sound reached end of file
+3833.1325 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'sounds': 'sounds/26a_bajar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.77, 'trigger_1_F0': 0.8999999999999999, 'trigger_suffix': 1.03, 'trigger_2_F0': 1.171181705729166, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.57, 'ms_1_F0': 0.7, 'ms_suffix': 0.83, 'ms_2_F0': 0.971181705729166, 'file_name': '26a_bajar.wav', 'item_id': 26, 'cond': 'a', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+3833.1427 	EXP 	Sound test_sound reached end of file
+3833.1463 	EXP 	Sound test_sound started
+3833.1450 	DATA 	Keypress: right
+3833.1523 	EXP 	polygon_2: autoDraw = False
+3833.1523 	EXP 	text_3: autoDraw = False
+3833.1523 	EXP 	polygon_2: autoDraw = True
+3835.1966 	EXP 	Sound test_sound reached end of file
+3835.2133 	EXP 	Sound test_sound reached end of file
+3835.5663 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'sounds': 'sounds/28d_parar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8458860026041659, 'trigger_1_F0': 0.862313736979166, 'trigger_suffix': 1.018194683159722, 'trigger_2_F0': 1.032797113715277, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.645886002604166, 'ms_1_F0': 0.662313736979166, 'ms_suffix': 0.818194683159722, 'ms_2_F0': 0.832797113715277, 'file_name': '28d_parar.wav', 'item_id': 28, 'cond': 'd', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+3835.5770 	EXP 	Sound test_sound reached end of file
+3835.5793 	EXP 	Sound test_sound started
+3835.5796 	DATA 	Keypress: right
+3835.5881 	EXP 	polygon_2: autoDraw = False
+3835.5881 	EXP 	text_3: autoDraw = False
+3835.5881 	EXP 	polygon_2: autoDraw = True
+3837.4840 	EXP 	Sound test_sound reached end of file
+3837.4969 	EXP 	Sound test_sound reached end of file
+3837.7668 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'sounds': 'sounds/34c_formar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.876373676215277, 'trigger_1_F0': 0.992687651909722, 'trigger_suffix': 1.14, 'trigger_2_F0': 1.26319767795138, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.676373676215277, 'ms_1_F0': 0.792687651909722, 'ms_suffix': 0.94, 'ms_2_F0': 1.06319767795138, 'file_name': '34c_formar.wav', 'item_id': 34, 'cond': 'c', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+3837.7802 	EXP 	Sound test_sound reached end of file
+3837.7965 	EXP 	Sound test_sound started
+3837.7825 	DATA 	Keypress: left
+3837.7899 	EXP 	polygon_2: autoDraw = False
+3837.7899 	EXP 	text_3: autoDraw = False
+3837.7899 	EXP 	polygon_2: autoDraw = True
+3840.0102 	EXP 	Sound test_sound reached end of file
+3840.0150 	EXP 	Sound test_sound reached end of file
+3842.3162 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'sounds': 'sounds/09c_cargar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.81286744068287, 'trigger_1_F0': 0.8382251229745361, 'trigger_suffix': 1.032634020543981, 'trigger_2_F0': 1.090594437210648, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.61286744068287, 'ms_1_F0': 0.638225122974536, 'ms_suffix': 0.832634020543981, 'ms_2_F0': 0.890594437210648, 'file_name': '09c_cargar.wav', 'item_id': 9, 'cond': 'c', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+3842.3282 	EXP 	Sound test_sound reached end of file
+3842.3299 	EXP 	Sound test_sound started
+3842.3305 	DATA 	Keypress: right
+3842.3381 	EXP 	polygon_2: autoDraw = False
+3842.3381 	EXP 	text_3: autoDraw = False
+3842.3381 	EXP 	polygon_2: autoDraw = True
+3844.2529 	EXP 	Sound test_sound reached end of file
+3844.2637 	EXP 	Sound test_sound reached end of file
+3848.2842 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'sounds': 'sounds/04c_plantar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.862877574458911, 'trigger_1_F0': 0.9343518689653568, 'trigger_suffix': 1.20493812332404, 'trigger_2_F0': 1.21897569287037, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.662877574458911, 'ms_1_F0': 0.734351868965357, 'ms_suffix': 1.00493812332404, 'ms_2_F0': 1.01897569287037, 'file_name': '04c_plantar.wav', 'item_id': 4, 'cond': 'c', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+3848.2971 	EXP 	Sound test_sound reached end of file
+3848.3137 	EXP 	Sound test_sound started
+3848.2983 	DATA 	Keypress: left
+3848.3077 	EXP 	polygon_2: autoDraw = False
+3848.3077 	EXP 	text_3: autoDraw = False
+3848.3077 	EXP 	polygon_2: autoDraw = True
+3850.3332 	EXP 	Sound test_sound reached end of file
+3850.3471 	EXP 	Sound test_sound reached end of file
+3850.7012 	DATA 	Keypress: right
+3850.7131 	EXP 	polygon_2: autoDraw = False
+3850.7131 	EXP 	text_3: autoDraw = True
+3858.5814 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'sounds': 'sounds/35b_secar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8990044921875, 'trigger_1_F0': 1.025708658854166, 'trigger_suffix': 1.179689416956018, 'trigger_2_F0': 1.20652606336805, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.6990044921875, 'ms_1_F0': 0.825708658854166, 'ms_suffix': 0.979689416956018, 'ms_2_F0': 1.00652606336805, 'file_name': '35b_secar.wav', 'item_id': 35, 'cond': 'b', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+3858.5925 	EXP 	Sound test_sound reached end of file
+3858.5968 	EXP 	Sound test_sound started
+3858.5946 	DATA 	Keypress: space
+3858.6033 	EXP 	text_3: autoDraw = False
+3858.6033 	EXP 	polygon_2: autoDraw = True
+3860.7144 	EXP 	Sound test_sound reached end of file
+3860.7322 	EXP 	Sound test_sound reached end of file
+3861.9030 	DATA 	Keypress: right
+3861.9222 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'sounds': 'sounds/36c_bordar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 1.0, 'trigger_1_F0': 1.078468243634259, 'trigger_suffix': 1.3288624855324, 'trigger_2_F0': 1.3414992042824, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.8, 'ms_1_F0': 0.878468243634259, 'ms_suffix': 1.1288624855324, 'ms_2_F0': 1.1414992042824, 'file_name': '36c_bordar.wav', 'item_id': 36, 'cond': 'c', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+3861.9457 	EXP 	Sound test_sound reached end of file
+3861.9483 	EXP 	Sound test_sound started
+3861.9558 	EXP 	polygon_2: autoDraw = False
+3861.9558 	EXP 	text_3: autoDraw = False
+3861.9558 	EXP 	polygon_2: autoDraw = True
+3864.2062 	EXP 	Sound test_sound reached end of file
+3864.2148 	EXP 	Sound test_sound reached end of file
+3865.4889 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'sounds': 'sounds/11a_pegar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8182808977343741, 'trigger_1_F0': 0.831294515585661, 'trigger_suffix': 0.98, 'trigger_2_F0': 1.012063288108519, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.618280897734374, 'ms_1_F0': 0.631294515585661, 'ms_suffix': 0.78, 'ms_2_F0': 0.812063288108519, 'file_name': '11a_pegar.wav', 'item_id': 11, 'cond': 'a', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+3865.5172 	EXP 	Sound test_sound reached end of file
+3865.5315 	EXP 	Sound test_sound started
+3865.5195 	DATA 	Keypress: left
+3865.5287 	EXP 	polygon_2: autoDraw = False
+3865.5287 	EXP 	text_3: autoDraw = False
+3865.5287 	EXP 	polygon_2: autoDraw = True
+3867.4492 	EXP 	Sound test_sound reached end of file
+3867.4655 	EXP 	Sound test_sound reached end of file
+3867.9397 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'sounds': 'sounds/23a_tomar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.9453179615162032, 'trigger_1_F0': 0.95, 'trigger_suffix': 1.08, 'trigger_2_F0': 1.158644495081018, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.745317961516203, 'ms_1_F0': 0.75, 'ms_suffix': 0.88, 'ms_2_F0': 0.958644495081018, 'file_name': '23a_tomar.wav', 'item_id': 23, 'cond': 'a', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+3867.9679 	EXP 	Sound test_sound reached end of file
+3867.9820 	EXP 	Sound test_sound started
+3867.9710 	DATA 	Keypress: left
+3867.9787 	EXP 	polygon_2: autoDraw = False
+3867.9787 	EXP 	text_3: autoDraw = False
+3867.9787 	EXP 	polygon_2: autoDraw = True
+3869.8577 	EXP 	Sound test_sound reached end of file
+3869.8643 	EXP 	Sound test_sound reached end of file
+3870.1193 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'sounds': 'sounds/16a_llevar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.929084516317274, 'trigger_1_F0': 0.964936524692279, 'trigger_suffix': 1.08, 'trigger_2_F0': 1.131864014418682, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.729084516317274, 'ms_1_F0': 0.764936524692279, 'ms_suffix': 0.88, 'ms_2_F0': 0.931864014418682, 'file_name': '16a_llevar.wav', 'item_id': 16, 'cond': 'a', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+3870.1333 	EXP 	Sound test_sound reached end of file
+3870.1480 	EXP 	Sound test_sound started
+3870.1360 	DATA 	Keypress: right
+3870.1433 	EXP 	polygon_2: autoDraw = False
+3870.1433 	EXP 	text_3: autoDraw = False
+3870.1433 	EXP 	polygon_2: autoDraw = True
+3872.0314 	EXP 	Sound test_sound reached end of file
+3872.0476 	EXP 	Sound test_sound reached end of file
+3874.2505 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'sounds': 'sounds/20c_cubrir.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.980138641742621, 'trigger_1_F0': 1.01, 'trigger_suffix': 1.192436112212021, 'trigger_2_F0': 1.28412143493692, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.780138641742621, 'ms_1_F0': 0.81, 'ms_suffix': 0.992436112212021, 'ms_2_F0': 1.08412143493692, 'file_name': '20c_cubrir.wav', 'item_id': 20, 'cond': 'c', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+3874.2634 	EXP 	Sound test_sound reached end of file
+3874.2642 	EXP 	Sound test_sound started
+3874.2654 	DATA 	Keypress: right
+3874.2721 	EXP 	polygon_2: autoDraw = False
+3874.2721 	EXP 	text_3: autoDraw = False
+3874.2721 	EXP 	polygon_2: autoDraw = True
+3876.3831 	EXP 	Sound test_sound reached end of file
+3876.3974 	EXP 	Sound test_sound reached end of file
+3878.5164 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'sounds': 'sounds/25b_ganar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 1.152097938368055, 'trigger_1_F0': 1.15990068760488, 'trigger_suffix': 1.28904165650454, 'trigger_2_F0': 1.37272500435153, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.952097938368055, 'ms_1_F0': 0.95990068760488, 'ms_suffix': 1.08904165650454, 'ms_2_F0': 1.17272500435153, 'file_name': '25b_ganar.wav', 'item_id': 25, 'cond': 'b', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+3878.5298 	EXP 	Sound test_sound reached end of file
+3878.5304 	EXP 	Sound test_sound started
+3878.5314 	DATA 	Keypress: right
+3878.5383 	EXP 	polygon_2: autoDraw = False
+3878.5383 	EXP 	text_3: autoDraw = False
+3878.5383 	EXP 	polygon_2: autoDraw = True
+3880.8571 	EXP 	Sound test_sound reached end of file
+3880.8647 	EXP 	Sound test_sound reached end of file
+3880.9356 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'sounds': 'sounds/22d_dejar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8500000000000001, 'trigger_1_F0': 1.02, 'trigger_suffix': 1.152543366608796, 'trigger_2_F0': 1.28794346788194, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.65, 'ms_1_F0': 0.82, 'ms_suffix': 0.952543366608796, 'ms_2_F0': 1.08794346788194, 'file_name': '22d_dejar.wav', 'item_id': 22, 'cond': 'd', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+3880.9500 	EXP 	Sound test_sound reached end of file
+3880.9646 	EXP 	Sound test_sound started
+3880.9518 	DATA 	Keypress: right
+3880.9596 	EXP 	polygon_2: autoDraw = False
+3880.9596 	EXP 	text_3: autoDraw = False
+3880.9596 	EXP 	polygon_2: autoDraw = True
+3882.9809 	EXP 	Sound test_sound reached end of file
+3882.9977 	EXP 	Sound test_sound reached end of file
+3883.7523 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'sounds': 'sounds/19a_marcar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8400000000000001, 'trigger_1_F0': 0.97, 'trigger_suffix': 1.245718359375, 'trigger_2_F0': 1.273519140625, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.64, 'ms_1_F0': 0.77, 'ms_suffix': 1.045718359375, 'ms_2_F0': 1.073519140625, 'file_name': '19a_marcar.wav', 'item_id': 19, 'cond': 'a', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+3883.7671 	EXP 	Sound test_sound reached end of file
+3883.7815 	EXP 	Sound test_sound started
+3883.7687 	DATA 	Keypress: left
+3883.7762 	EXP 	polygon_2: autoDraw = False
+3883.7762 	EXP 	text_3: autoDraw = False
+3883.7762 	EXP 	polygon_2: autoDraw = True
+3885.6557 	EXP 	Sound test_sound reached end of file
+3885.6640 	EXP 	Sound test_sound reached end of file
+3886.7667 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'sounds': 'sounds/24d_mirar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.71, 'trigger_1_F0': 0.8119545789930551, 'trigger_suffix': 0.9389863642939812, 'trigger_2_F0': 0.9746780743634248, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.51, 'ms_1_F0': 0.611954578993055, 'ms_suffix': 0.738986364293981, 'ms_2_F0': 0.774678074363425, 'file_name': '24d_mirar.wav', 'item_id': 24, 'cond': 'd', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+3886.7796 	EXP 	Sound test_sound reached end of file
+3886.7806 	EXP 	Sound test_sound started
+3886.7818 	DATA 	Keypress: right
+3886.7895 	EXP 	polygon_2: autoDraw = False
+3886.7895 	EXP 	text_3: autoDraw = False
+3886.7895 	EXP 	polygon_2: autoDraw = True
+3888.4663 	EXP 	Sound test_sound reached end of file
+3888.4809 	EXP 	Sound test_sound reached end of file
+3888.8511 	DATA 	Keypress: right
+3888.8640 	EXP 	polygon_2: autoDraw = False
+3888.8640 	EXP 	text_3: autoDraw = True
+3898.7996 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'sounds': 'sounds/27c_tirar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8119442057291659, 'trigger_1_F0': 0.8307495153356481, 'trigger_suffix': 0.9885306495949072, 'trigger_2_F0': 0.998621303530092, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.611944205729166, 'ms_1_F0': 0.630749515335648, 'ms_suffix': 0.788530649594907, 'ms_2_F0': 0.798621303530092, 'file_name': '27c_tirar.wav', 'item_id': 27, 'cond': 'c', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+3898.8135 	EXP 	Sound test_sound reached end of file
+3898.8148 	EXP 	Sound test_sound started
+3898.8156 	DATA 	Keypress: space
+3898.8233 	EXP 	text_3: autoDraw = False
+3898.8233 	EXP 	polygon_2: autoDraw = True
+3900.7985 	EXP 	Sound test_sound reached end of file
+3900.8146 	EXP 	Sound test_sound reached end of file
+3901.2184 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'sounds': 'sounds/39b_manchar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.81, 'trigger_1_F0': 0.91203755787037, 'trigger_suffix': 1.140584317129629, 'trigger_2_F0': 1.2139708912037, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.61, 'ms_1_F0': 0.71203755787037, 'ms_suffix': 0.940584317129629, 'ms_2_F0': 1.0139708912037, 'file_name': '39b_manchar.wav', 'item_id': 39, 'cond': 'b', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+3901.2318 	EXP 	Sound test_sound reached end of file
+3901.2483 	EXP 	Sound test_sound started
+3901.2341 	DATA 	Keypress: left
+3901.2422 	EXP 	polygon_2: autoDraw = False
+3901.2422 	EXP 	text_3: autoDraw = False
+3901.2422 	EXP 	polygon_2: autoDraw = True
+3903.4690 	EXP 	Sound test_sound reached end of file
+3903.4824 	EXP 	Sound test_sound reached end of file
+3903.8006 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'sounds': 'sounds/10d_vender.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.832830209056713, 'trigger_1_F0': 0.8775468199411529, 'trigger_suffix': 1.109501330306288, 'trigger_2_F0': 1.158928471023364, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.632830209056713, 'ms_1_F0': 0.677546819941153, 'ms_suffix': 0.909501330306288, 'ms_2_F0': 0.958928471023364, 'file_name': '10d_vender.wav', 'item_id': 10, 'cond': 'd', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+3903.8140 	EXP 	Sound test_sound reached end of file
+3903.8147 	EXP 	Sound test_sound started
+3903.8160 	DATA 	Keypress: right
+3903.8236 	EXP 	polygon_2: autoDraw = False
+3903.8236 	EXP 	text_3: autoDraw = False
+3903.8236 	EXP 	polygon_2: autoDraw = True
+3905.7133 	EXP 	Sound test_sound reached end of file
+3905.7183 	EXP 	Sound test_sound reached end of file
+3906.7347 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'sounds': 'sounds/17d_tragar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 1.070609360532407, 'trigger_1_F0': 1.117973654513888, 'trigger_suffix': 1.30915316840277, 'trigger_2_F0': 1.35458539534397, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.870609360532407, 'ms_1_F0': 0.917973654513888, 'ms_suffix': 1.10915316840277, 'ms_2_F0': 1.15458539534397, 'file_name': '17d_tragar.wav', 'item_id': 17, 'cond': 'd', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+3906.7477 	EXP 	Sound test_sound reached end of file
+3906.7491 	EXP 	Sound test_sound started
+3906.7488 	DATA 	Keypress: left
+3906.7577 	EXP 	polygon_2: autoDraw = False
+3906.7577 	EXP 	text_3: autoDraw = False
+3906.7577 	EXP 	polygon_2: autoDraw = True
+3909.0401 	EXP 	Sound test_sound reached end of file
+3909.0487 	EXP 	Sound test_sound reached end of file
+3911.3024 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'sounds': 'sounds/12a_matar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8400000000000001, 'trigger_1_F0': 0.96, 'trigger_suffix': 1.17307472511574, 'trigger_2_F0': 1.186647497106481, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.64, 'ms_1_F0': 0.76, 'ms_suffix': 0.97307472511574, 'ms_2_F0': 0.986647497106481, 'file_name': '12a_matar.wav', 'item_id': 12, 'cond': 'a', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+3911.3166 	EXP 	Sound test_sound reached end of file
+3911.3314 	EXP 	Sound test_sound started
+3911.3185 	DATA 	Keypress: left
+3911.3264 	EXP 	polygon_2: autoDraw = False
+3911.3264 	EXP 	text_3: autoDraw = False
+3911.3264 	EXP 	polygon_2: autoDraw = True
+3913.5009 	EXP 	Sound test_sound reached end of file
+3913.5153 	EXP 	Sound test_sound reached end of file
+3913.8183 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'sounds': 'sounds/38b_pagar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 1.166737304687499, 'trigger_1_F0': 1.185271158854166, 'trigger_suffix': 1.29521061197916, 'trigger_2_F0': 1.4055712890624898, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.966737304687499, 'ms_1_F0': 0.985271158854166, 'ms_suffix': 1.09521061197916, 'ms_2_F0': 1.20557128906249, 'file_name': '38b_pagar.wav', 'item_id': 38, 'cond': 'b', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+3913.8312 	EXP 	Sound test_sound reached end of file
+3913.8313 	EXP 	Sound test_sound started
+3913.8330 	DATA 	Keypress: right
+3913.8401 	EXP 	polygon_2: autoDraw = False
+3913.8401 	EXP 	text_3: autoDraw = False
+3913.8401 	EXP 	polygon_2: autoDraw = True
+3916.0656 	EXP 	Sound test_sound reached end of file
+3916.0821 	EXP 	Sound test_sound reached end of file
+3917.2012 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'sounds': 'sounds/08d_filtrar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.7526856695589441, 'trigger_1_F0': 0.87808115762362, 'trigger_suffix': 1.118901843962886, 'trigger_2_F0': 1.172598812485867, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.552685669558944, 'ms_1_F0': 0.67808115762362, 'ms_suffix': 0.918901843962886, 'ms_2_F0': 0.972598812485867, 'file_name': '08d_filtrar.wav', 'item_id': 8, 'cond': 'd', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+3917.2161 	EXP 	Sound test_sound reached end of file
+3917.2318 	EXP 	Sound test_sound started
+3917.2178 	DATA 	Keypress: right
+3917.2253 	EXP 	polygon_2: autoDraw = False
+3917.2253 	EXP 	text_3: autoDraw = False
+3917.2253 	EXP 	polygon_2: autoDraw = True
+3918.9715 	EXP 	Sound test_sound reached end of file
+3918.9841 	EXP 	Sound test_sound reached end of file
+3919.5910 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'sounds': 'sounds/02c_buscar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8700000000000001, 'trigger_1_F0': 1.07, 'trigger_suffix': 1.26, 'trigger_2_F0': 1.40703946035879, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.67, 'ms_1_F0': 0.87, 'ms_suffix': 1.06, 'ms_2_F0': 1.20703946035879, 'file_name': '02c_buscar.wav', 'item_id': 2, 'cond': 'c', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+3919.6177 	EXP 	Sound test_sound reached end of file
+3919.6335 	EXP 	Sound test_sound started
+3919.6202 	DATA 	Keypress: right
+3919.6298 	EXP 	polygon_2: autoDraw = False
+3919.6298 	EXP 	text_3: autoDraw = False
+3919.6298 	EXP 	polygon_2: autoDraw = True
+3921.7370 	EXP 	Sound test_sound reached end of file
+3921.7502 	EXP 	Sound test_sound reached end of file
+3923.6708 	DATA 	Keypress: right
+3923.6902 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'sounds': 'sounds/37b_pasar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 1.033132486979166, 'trigger_1_F0': 1.052087565104166, 'trigger_suffix': 1.159499674479166, 'trigger_2_F0': 1.27702115885416, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.833132486979166, 'ms_1_F0': 0.852087565104166, 'ms_suffix': 0.959499674479166, 'ms_2_F0': 1.07702115885416, 'file_name': '37b_pasar.wav', 'item_id': 37, 'cond': 'b', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+3923.7189 	EXP 	Sound test_sound reached end of file
+3923.7329 	EXP 	Sound test_sound started
+3923.7299 	EXP 	polygon_2: autoDraw = False
+3923.7299 	EXP 	text_3: autoDraw = False
+3923.7299 	EXP 	polygon_2: autoDraw = True
+3925.8181 	EXP 	Sound test_sound reached end of file
+3925.8335 	EXP 	Sound test_sound reached end of file
+3926.6365 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'sounds': 'sounds/33b_culpar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8606178431336959, 'trigger_1_F0': 0.869103678029107, 'trigger_suffix': 1.109891641372144, 'trigger_2_F0': 1.131540467434179, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.660617843133696, 'ms_1_F0': 0.669103678029107, 'ms_suffix': 0.909891641372144, 'ms_2_F0': 0.931540467434179, 'file_name': '33b_culpar.wav', 'item_id': 33, 'cond': 'b', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+3926.6537 	EXP 	Sound test_sound reached end of file
+3926.6653 	EXP 	Sound test_sound started
+3926.6558 	DATA 	Keypress: left
+3926.6639 	EXP 	polygon_2: autoDraw = False
+3926.6639 	EXP 	text_3: autoDraw = False
+3926.6639 	EXP 	polygon_2: autoDraw = True
+3928.6441 	EXP 	Sound test_sound paused
+3928.6486 	DATA 	Keypress: right
+3928.6509 	EXP 	polygon_2: autoDraw = False
+3928.6509 	EXP 	text_3: autoDraw = True
+3935.7017 	DATA 	Keypress: space
+3935.7162 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'sounds': 'sounds/30a_fundar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.77, 'trigger_1_F0': 0.91, 'trigger_suffix': 1.112685546875, 'trigger_2_F0': 1.12, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.57, 'ms_1_F0': 0.71, 'ms_suffix': 0.912685546875, 'ms_2_F0': 0.92, 'file_name': '30a_fundar.wav', 'item_id': 30, 'cond': 'a', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+3935.7278 	EXP 	Sound test_sound reached end of file
+3935.7314 	EXP 	Sound test_sound started
+3935.7373 	EXP 	text_3: autoDraw = False
+3935.7373 	EXP 	polygon_2: autoDraw = True
+3937.8668 	EXP 	Sound test_sound reached end of file
+3937.8822 	EXP 	Sound test_sound reached end of file
+3938.8069 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'sounds': 'sounds/21a_mezclar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.78, 'trigger_1_F0': 0.9121902777777772, 'trigger_suffix': 1.20214212962962, 'trigger_2_F0': 1.27, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.58, 'ms_1_F0': 0.712190277777777, 'ms_suffix': 1.00214212962962, 'ms_2_F0': 1.07, 'file_name': '21a_mezclar.wav', 'item_id': 21, 'cond': 'a', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+3938.8318 	EXP 	Sound test_sound reached end of file
+3938.8333 	EXP 	Sound test_sound started
+3938.8333 	DATA 	Keypress: right
+3938.8416 	EXP 	polygon_2: autoDraw = False
+3938.8416 	EXP 	text_3: autoDraw = False
+3938.8416 	EXP 	polygon_2: autoDraw = True
+3940.8387 	EXP 	Sound test_sound reached end of file
+3940.8500 	EXP 	Sound test_sound reached end of file
+3942.7252 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'sounds': 'sounds/13c_montar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8800000000000001, 'trigger_1_F0': 0.98, 'trigger_suffix': 1.24543012152777, 'trigger_2_F0': 1.2594709201388798, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.68, 'ms_1_F0': 0.78, 'ms_suffix': 1.04543012152777, 'ms_2_F0': 1.05947092013888, 'file_name': '13c_montar.wav', 'item_id': 13, 'cond': 'c', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+3942.7504 	EXP 	Sound test_sound reached end of file
+3942.7671 	EXP 	Sound test_sound started
+3942.7530 	DATA 	Keypress: right
+3942.7599 	EXP 	polygon_2: autoDraw = False
+3942.7599 	EXP 	text_3: autoDraw = False
+3942.7599 	EXP 	polygon_2: autoDraw = True
+3945.0379 	EXP 	Sound test_sound reached end of file
+3945.0513 	EXP 	Sound test_sound reached end of file
+3947.3343 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'sounds': 'sounds/18b_cumplir.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 1.2408027271412, 'trigger_1_F0': 1.25568597366898, 'trigger_suffix': 1.46256310040509, 'trigger_2_F0': 1.54144430700231, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 1.0408027271412, 'ms_1_F0': 1.05568597366898, 'ms_suffix': 1.26256310040509, 'ms_2_F0': 1.34144430700231, 'file_name': '18b_cumplir.wav', 'item_id': 18, 'cond': 'b', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+3947.3451 	EXP 	Sound test_sound reached end of file
+3947.3484 	EXP 	Sound test_sound started
+3947.3488 	DATA 	Keypress: left
+3947.3541 	EXP 	polygon_2: autoDraw = False
+3947.3541 	EXP 	text_3: autoDraw = False
+3947.3541 	EXP 	polygon_2: autoDraw = True
+3949.5223 	EXP 	Sound test_sound reached end of file
+3949.5322 	EXP 	Sound test_sound reached end of file
+3950.9712 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'sounds': 'sounds/14b_borrar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.72, 'trigger_1_F0': 0.770187630208333, 'trigger_suffix': 0.851961241319444, 'trigger_2_F0': 0.964399956597222, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.52, 'ms_1_F0': 0.570187630208333, 'ms_suffix': 0.651961241319444, 'ms_2_F0': 0.764399956597222, 'file_name': '14b_borrar.wav', 'item_id': 14, 'cond': 'b', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+3950.9839 	EXP 	Sound test_sound reached end of file
+3950.9992 	EXP 	Sound test_sound started
+3950.9852 	DATA 	Keypress: left
+3950.9943 	EXP 	polygon_2: autoDraw = False
+3950.9943 	EXP 	text_3: autoDraw = False
+3950.9943 	EXP 	polygon_2: autoDraw = True
+3952.9214 	EXP 	Sound test_sound reached end of file
+3952.9325 	EXP 	Sound test_sound reached end of file
+3953.7180 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'sounds': 'sounds/31d_tocar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8493931756807, 'trigger_1_F0': 0.8650112062639721, 'trigger_suffix': 1.006860547391531, 'trigger_2_F0': 1.049162047334928, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.6493931756807, 'ms_1_F0': 0.665011206263972, 'ms_suffix': 0.806860547391531, 'ms_2_F0': 0.849162047334928, 'file_name': '31d_tocar.wav', 'item_id': 31, 'cond': 'd', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+3953.7325 	EXP 	Sound test_sound reached end of file
+3953.7485 	EXP 	Sound test_sound started
+3953.7346 	DATA 	Keypress: right
+3953.7412 	EXP 	polygon_2: autoDraw = False
+3953.7412 	EXP 	text_3: autoDraw = False
+3953.7412 	EXP 	polygon_2: autoDraw = True
+3955.6212 	EXP 	Sound test_sound reached end of file
+3955.6319 	EXP 	Sound test_sound reached end of file
+3955.8514 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'sounds': 'sounds/05a_fumar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Match', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 1.15, 'trigger_1_F0': 1.36712555700231, 'trigger_suffix': 1.48, 'trigger_2_F0': 1.56308830295138, 'ID_item': 101, 'ID_senonset': 10, 'ID_verbonset': 11, 'ID_1_F0': 12, 'ID_suffix': 13, 'ID_2_F0': 14, 'ms_senonset': 0, 'ms_verbonset': 0.95, 'ms_1_F0': 1.16712555700231, 'ms_suffix': 1.28, 'ms_2_F0': 1.36308830295138, 'file_name': '05a_fumar.wav', 'item_id': 5, 'cond': 'a', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+3955.8652 	EXP 	Sound test_sound reached end of file
+3955.8655 	EXP 	Sound test_sound started
+3955.8665 	DATA 	Keypress: right
+3955.8747 	EXP 	polygon_2: autoDraw = False
+3955.8747 	EXP 	text_3: autoDraw = False
+3955.8747 	EXP 	polygon_2: autoDraw = True
+3958.2230 	EXP 	Sound test_sound reached end of file
+3958.2326 	EXP 	Sound test_sound reached end of file
+3958.9370 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'sounds': 'sounds/01d_salvar.wav', 'syll': 'CVC', 'stress_unstress': 'Stressed', 'suffix': 'Mismatch', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.8500000000000001, 'trigger_1_F0': 0.996069502314814, 'trigger_suffix': 1.23, 'trigger_2_F0': 1.29, 'ID_item': 101, 'ID_senonset': 40, 'ID_verbonset': 41, 'ID_1_F0': 42, 'ID_suffix': 43, 'ID_2_F0': 44, 'ms_senonset': 0, 'ms_verbonset': 0.65, 'ms_1_F0': 0.796069502314814, 'ms_suffix': 1.03, 'ms_2_F0': 1.09, 'file_name': '01d_salvar.wav', 'item_id': 1, 'cond': 'd', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+3958.9501 	EXP 	Sound test_sound reached end of file
+3958.9659 	EXP 	Sound test_sound started
+3958.9516 	DATA 	Keypress: right
+3958.9611 	EXP 	polygon_2: autoDraw = False
+3958.9611 	EXP 	text_3: autoDraw = False
+3958.9611 	EXP 	polygon_2: autoDraw = True
+3960.9994 	EXP 	Sound test_sound reached end of file
+3961.0162 	EXP 	Sound test_sound reached end of file
+3963.6875 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'sounds': 'sounds/15b_partir.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Mismatch', 'present_past': 'present', 'corrAns': 'num_1', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.826865400752314, 'trigger_1_F0': 0.842973894883327, 'trigger_suffix': 1.1042888772729471, 'trigger_2_F0': 1.120815958498066, 'ID_item': 101, 'ID_senonset': 20, 'ID_verbonset': 21, 'ID_1_F0': 22, 'ID_suffix': 23, 'ID_2_F0': 24, 'ms_senonset': 0, 'ms_verbonset': 0.626865400752314, 'ms_1_F0': 0.642973894883327, 'ms_suffix': 0.904288877272947, 'ms_2_F0': 0.920815958498066, 'file_name': '15b_partir.wav', 'item_id': 15, 'cond': 'b', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+3963.7017 	EXP 	Sound test_sound reached end of file
+3963.7164 	EXP 	Sound test_sound started
+3963.7042 	DATA 	Keypress: right
+3963.7116 	EXP 	polygon_2: autoDraw = False
+3963.7116 	EXP 	text_3: autoDraw = False
+3963.7116 	EXP 	polygon_2: autoDraw = True
+3965.7536 	EXP 	Sound test_sound reached end of file
+3965.7662 	EXP 	Sound test_sound reached end of file
+3967.1186 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'sounds': 'sounds/07c_tumbar.wav', 'syll': 'CVC', 'stress_unstress': 'Unstressed', 'suffix': 'Match', 'present_past': 'past', 'corrAns': 'num_2', 'trigger_item': 0.0, 'trigger_senonset': 0.2, 'trigger_verbsonset': 0.9084024930273432, 'trigger_1_F0': 0.9247360728973012, 'trigger_suffix': 1.143289673625005, 'trigger_2_F0': 1.154847989033482, 'ID_item': 101, 'ID_senonset': 30, 'ID_verbonset': 31, 'ID_1_F0': 32, 'ID_suffix': 33, 'ID_2_F0': 34, 'ms_senonset': 0, 'ms_verbonset': 0.708402493027343, 'ms_1_F0': 0.724736072897301, 'ms_suffix': 0.943289673625005, 'ms_2_F0': 0.954847989033482, 'file_name': '07c_tumbar.wav', 'item_id': 7, 'cond': 'c', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+3967.1291 	EXP 	Sound test_sound reached end of file
+3967.1324 	EXP 	Sound test_sound started
+3967.1317 	DATA 	Keypress: left
+3967.1380 	EXP 	polygon_2: autoDraw = False
+3967.1380 	EXP 	text_3: autoDraw = False
+3967.1380 	EXP 	polygon_2: autoDraw = True
+3969.0665 	EXP 	Sound test_sound reached end of file
+3969.0826 	EXP 	Sound test_sound reached end of file
+3969.6532 	DATA 	Keypress: right
+3969.6654 	EXP 	polygon_2: autoDraw = False
+3969.6654 	EXP 	text_3: autoDraw = False
+3969.6654 	EXP 	text_2: autoDraw = True
+3972.2305 	DATA 	Keypress: space
+3972.2328 	EXP 	text_2: autoDraw = False
+3972.2330 	EXP 	LangExperimentstress: status = STOPPED

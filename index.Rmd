@@ -308,6 +308,40 @@ ERP_suffix_long %>%
 
 ```
 
+# Behavioral Data
+```{r}
+df_clean <- readr::read_csv(here::here("psychopy_clean_data", "psychopy_clean.csv"))
+
+# Analyze data
+accuracy_summary <- df_clean %>%
+  group_by(group, stress_unstress, suffix) %>%
+  summarise(
+    accuracy = mean(correct, na.rm = TRUE),
+    sd = sd(correct, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+# RT
+rt_summary <- df_clean %>%
+  group_by(stress_unstress, suffix, correct) %>%
+  summarise(
+    mean_rt = mean(key_resp_2.rt, na.rm = TRUE),
+    sd = sd(key_resp_2.rt, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+# Show Accuracy Table
+knitr::kable(accuracy_summary, caption = "Accuracy by Group, Stress, and Suffix") %>%
+  kableExtra::kable_styling(full_width = FALSE)
+
+# Show RT Table
+knitr::kable(rt_summary, caption = "Reaction Times by Stress, Suffix, and Accuracy") %>%
+  kableExtra::kable_styling(full_width = FALSE)
+
+knitr::include_graphics("RT_stress_suffix.png")
+knitr::include_graphics("ACC_stress_suffix.png")
+```
+
 # Summary
 
 ###
